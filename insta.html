@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Instagram Login </title>
+    <link rel="stylesheet" href="insta.css">
+</head>
+<body>
+    <div id="container">
+        <section>
+            <div class="main-top">
+                <div class="logo">
+                    <img src="data:image/png;base64,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" />
+                </div>
+                <div>
+                    <input type="text" placeholder="Phone number,username or email address" class="username" />
+                    <div>
+                        <input type="password" placeholder="password" class="password" />
+                    </div>
+                    <input type="button" value="Log in" class="login-btn" />
+                </div>
+                <div class="or">
+                    <div class="line"></div>
+                    <p>OR</p>
+                    <div class="line"></div>
+                </div>
+                <div class="dif">
+                    <div class="fb">
+                        <a style="text-decoration : none;" href="#"><i><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhzCDXdnAxXlOc-2sEdRaNnk4I7RMiXkr2Q&usqp=CAU" alt="" height="15px"></i> Log in with Facebook </a><br>
+                    </div>
+                    <div class="forgot">
+                        <a href="#">Forgotten your password?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="signUp">
+                    Don't have an account? <a href="#">Sign up</a>
+                </div>
+            </div>
+            <div class="app-section">
+                <span> Get the app </span>
+                <div class="images">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" alt="googlePlay Image">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="Microsoft Image">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="">Meta</a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Jobs</a>
+            <a href="">Help</a>
+            <a href="">API</a>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Top Accounts</a>
+            <a href="">Locations</a>
+            <a href="">Instagram Lite</a>
+            <a href="">Instagram Contact</a>
+            <a href="">Uploading & Non-Users</a>
+            <div class="bottom-footer">
+                <select name="" id="">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+                <span> &copy; 2023 Instagram from Meta</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
